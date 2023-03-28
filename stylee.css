@@ -1,0 +1,121 @@
+body{
+   background-image:url(imagenes/imagendefondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: 120vmax 200vmax;
+    background-attachment: scroll;
+    
+}
+
+.grid-layout{
+
+    display: grid;
+    
+    grid-template-areas: 'foto datos'
+                        'descripcion descripcion '
+                        'educacion experiencia'
+                        'hyh hobbies';                    
+    
+    grid-template-columns: 55% auto;
+    grid-template-rows: 42% 20% 30% auto;
+   
+    
+    height: 1400px;
+    width: 100%
+    
+
+
+
+}
+h1{
+    text-align:center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 75px;
+    margin: 2px;
+    
+}
+.c1{
+   
+    grid-area: foto;
+    text-align:center;
+    
+}
+img[alt]{
+    width: 520px;
+    height: 480px;
+    padding: 10px;
+    margin: 5px 5px;
+    border-radius: 90%;
+    
+}
+.c2 {
+    
+    grid-area: datos;
+    
+}
+
+
+.listas{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    line-height:  3.5;
+}
+h3,h4{
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+    margin-block: 12.2px;
+}
+
+
+.c3{
+    
+    grid-area: descripcion;
+    font-size: 25px;
+   text-align: center;
+    line-height: 2.1;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.c4{
+    
+    grid-area: educacion;
+    
+    
+}
+.lista2{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.0;
+    
+}
+
+.c5{
+    
+    grid-area: experiencia;
+    font-size: 24px;
+    font-family: 'Karla', sans-serif;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.c6{
+    grid-area: hyh;
+    margin:0.5%;
+    
+    font-size: 22px;
+    font-family: 'Karla', sans-serif;
+    line-height: 1.2;
+
+}
+.c7{
+   
+    grid-area: hobbies;
+   
+    font-size: 32px;
+    font-family: 'Karla', sans-serif;
+    line-height: 2.5;
+}
+.parrafo-editado{
+    font-size: 35px;
+    
+}
